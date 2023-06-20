@@ -1,9 +1,8 @@
-import HeaderHome from "./HeaderHome/HeaderHome";
+import HeaderHome from "./NavHome/NavHome";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
       <HeaderHome />
     </div>
   );
