@@ -1,12 +1,23 @@
+import React, { useState } from "react";
+import classNames from "classnames/bind";
+
+import MenuHome from "./MenuHome";
+import NavBar from "./NavBar";
+import BannerHome from "./BannerHome";
+
+import styles from "../../../components/scss/home/HeaderHome.module.scss";
+// import "../../../components/GlobalStyles/GlobalStyles.scss";
+
+const cx = classNames.bind(styles);
+
 function HeaderHome() {
   return (
-    <div className="wrapper">
-      <h2> A lifetime of discounts? It's Genius.</h2>
-      <p>
-        Get rewarded for your travels - unlock unstant savings of 10% or more
-        with a free account
-      </p>
-      <button type="button" className={"btn b"}></button>
+    <div className={cx("wrapper__headerHome")}>
+      <div className={cx("container")}>
+        <MenuHome />
+        <NavBar />
+        <BannerHome />
+      </div>
     </div>
   );
 }
