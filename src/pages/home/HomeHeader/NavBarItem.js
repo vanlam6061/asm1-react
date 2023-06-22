@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classNames from "classnames/bind";
-import styles from "../../../components/scss/home/NavBarItem.module.scss";
+import styles from "../../../components/scss/home/HomeHeader/NavBarItem.module.scss";
 
 const cx = classNames.bind(styles);
 

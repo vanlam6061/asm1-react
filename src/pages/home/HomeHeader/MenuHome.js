@@ -1,6 +1,6 @@
 import React from "react";
 import classNames from "classnames/bind";
-import styles from "../../../components/scss/home/MenuHome.module.scss";
+import styles from "../../../components/scss/home/HomeHeader/MenuHome.module.scss";
 
 const cl = classNames.bind(styles);
 

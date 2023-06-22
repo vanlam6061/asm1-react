@@ -1,4 +1,4 @@
-import styles from "../../../components/scss/home/BannerHome.module.scss";
+import styles from "../../../components/scss/home/HomeHeader/BannerHome.module.scss";
 
 import classNames from "classnames/bind";
 

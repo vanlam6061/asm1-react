@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../../../components/scss/home/NavBar.module.scss";
+import styles from "../../../components/scss/home/HomeHeader/NavBar.module.scss";
 import NavBarItem from "./NavBarItem";
 
 const items = [

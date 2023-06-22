@@ -1,9 +1,13 @@
-import HeaderHome from "./HeaderHome/HeaderHome";
+import HeaderHome from "./HomeHeader/HomeHeader";
+import ContentHome from './HomeContent/HomeContent'
+import FooterHome from './HomeFooter/HomeFooter'
 
 const Home = () => {
   return (
     <div>
-      <HeaderHome />
+      <HomeHeader />
+      <HomeContent />
+      <HomeFooter />
     </div>
   );
 };

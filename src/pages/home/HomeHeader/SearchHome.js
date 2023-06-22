@@ -7,7 +7,7 @@ import SearchDate from './SearchDate'
 const cx =classNames.bind(styles)
 
 
-import styles from '../../../components/scss/SearchHome.module.scss'
+import styles from '../../../components/scss/home/HomeHeader/SearchHome.module.scss'
 
 
 function SearchHome() {
