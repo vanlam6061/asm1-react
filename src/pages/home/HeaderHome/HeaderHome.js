@@ -4,6 +4,7 @@ import classNames from "classnames/bind";
 import MenuHome from "./MenuHome";
 import NavBar from "./NavBar";
 import BannerHome from "./BannerHome";
+import SearchHome from "./SearchHome";
 
 import styles from "../../../components/scss/home/HeaderHome.module.scss";
 // import "../../../components/GlobalStyles/GlobalStyles.scss";
@@ -17,6 +18,7 @@ function HeaderHome() {
         <MenuHome />
         <NavBar />
         <BannerHome />
+        <SearchHome />
       </div>
     </div>
   );
