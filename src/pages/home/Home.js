@@ -1,6 +1,6 @@
-import HeaderHome from "./HomeHeader/HomeHeader";
-import ContentHome from './HomeContent/HomeContent'
-import FooterHome from './HomeFooter/HomeFooter'
+import HomeHeader from "./HomeHeader";
+import HomeContent from "./HomeContent";
+import HomeFooter from "./HomeFooter";
 
 const Home = () => {
   return (
