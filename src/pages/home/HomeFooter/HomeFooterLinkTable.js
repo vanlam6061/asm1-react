@@ -6,6 +6,20 @@ import classNames from "classnames/bind";
 const cx = classNames.bind(styles);
 
 function HomeFooterLinkTable() {
-  return console.log(footer[0]);
+  return (
+    <div>
+      {
+        footer.map(column => {
+          <ul key ={column.col_number}>
+            {column.col_values.map(item =>{
+              <li>item</li>
+            })}
+          </ul>
+  
+  
+        })
+      }
+    </div>
+  )
 }
 export default HomeFooterLinkTable;
