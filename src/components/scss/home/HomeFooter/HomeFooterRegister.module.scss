@@ -1,15 +1,25 @@
+.wrapper {
+  background-color: #003580;
+  color: white;
+  height: 270px;
+  margin: auto;
+}
 .home__footer--title {
-    font-size: 2.4rem;
+  text-align: center;
+  font-size: 2.4rem;
+  padding: auto;
 }
-.homeFooter__containter{
-    width: 500px;
-    height: 36px;
-    display: flex;
+.homeFooter__container {
+  width: 800px;
+  margin: 0 auto;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 0 auto;
 }
-.homeFooter__input{
-    width: 300px;
+.homeFooter__input {
+  width: 300px;
 }
-.homeFooter__button{
-    width: 100px;
-
+.homeFooter__button {
+  width: 100px;
 }

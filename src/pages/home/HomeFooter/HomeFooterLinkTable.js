@@ -4,18 +4,16 @@ import data from "../../../data/footer.json";
 import classNames from "classnames/bind";
 
 const cx = classNames.bind(styles);
-console.log(data[0].col_values);
 function HomeFooterLinkTable() {
   return (
     <div className={cx("wrapper")}>
-      {data.map((column) => {
+      {data.map((column) => (
         <div key={column.col_number}>
-          {column.col_number}
-          {/* {column.col_values.map((item, index) => {
-            <li key={index}>{item}</li>;
-          })} */}
-        </div>;
-      })}
+          {column.col_values.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </div>
+      ))}
     </div>
   );
 }
