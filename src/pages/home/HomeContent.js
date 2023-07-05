@@ -4,7 +4,7 @@ import styles from '../../components/scss/home/HomeContent/HomeContent.module.sc
 
 function HomeContent (){
     return(
-        <div></div>
+        <div ></div>
     )
 }
 export default HomeContent

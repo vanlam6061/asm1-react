@@ -1,11 +1,11 @@
-import styles from ' ../../../components/scss/home/HomeContent/HomeContentPropertyType.module.scss'
+import styles from ' ../../../components/scss/search/SearchContent.module.scss'
 
 import classNames from ' classnames/bind'
 import data from "../../../data/type.json"
 
 const cx = classNames.bind(styles)
 
-function HomeContentPropertyType (){
+function SearchContent (){
     return(
         <div classNames ={cx('container', 'HomeContentPropertyType__container')} >
         {data.map((card, index) =>(
@@ -20,4 +20,4 @@ function HomeContentPropertyType (){
     </div>
     )
 }
-export default HomeContentPropertyType
+export default SearchContent
