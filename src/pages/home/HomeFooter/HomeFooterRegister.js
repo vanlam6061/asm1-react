@@ -8,15 +8,15 @@ function HomeFooterRegister() {
   return (
     <div className={cx("wrapper")}>
       <div className={cx("container")}>
-        <p classNames={cx("homeFooter--title")}>Save time, save money!</p>
+        <p className={cx("homeFooter--title")}>Save time, save money!</p>
         <p>Sign up and we'll send the best deals to you</p>
-        <div classNames={cx("homeFooter__container")}>
+        <div className={cx("containeras")}>
           <input
             type="text"
-            classNames={cx("homeFooter__input")}
+            className={cx("homeFooter__input")}
             placeholder="Your Email"
           />
-          <button classNames={cx("button", "homeFooter__button")}>
+          <button className={cx("button", "homeFooter__button")}>
             Subcribe
           </button>
         </div>
