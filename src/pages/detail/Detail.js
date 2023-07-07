@@ -1,26 +1,22 @@
+import styles from "../../components/scss/detail/Detail.module.scss";
 
-import styles from '../../../components/scss/Search/Search.module.scss'
+import DetailContent from "./DetailContent";
+import HomeHeader from "../home/HomeHeader";
+import HomeFooter from "../home/HomeFooter";
 
-import SearchContent from './DetailContent'
-import HomeHeader from '../home/HomeHeader'
-import HomeFooter from '../home/HomeFooter'
+import className from "classnames/bind";
 
-import className from 'classnames/bind'
-
-
-const cx =className.bind(styles)
-
+const cx = className.bind(styles);
 
 const Detail = () => {
   return (
     <div>
-    <HomeHeader />
+      <HomeHeader />
 
+      <DetailContent />
 
-    <DetailContent />
-
-    <HomeFooter />
-  </div>
+      <HomeFooter />
+    </div>
   );
 };
 
