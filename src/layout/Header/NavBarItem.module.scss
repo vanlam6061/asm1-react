@@ -1,0 +1,12 @@
+.nav__item {
+  padding: 0 5px;
+  margin: 15;
+  list-style: none;
+}
+.nav__icon {
+  padding-right: 10px;
+}
+.nav__item--active {
+  border: 1px solid;
+  border-radius: 8px;
+}

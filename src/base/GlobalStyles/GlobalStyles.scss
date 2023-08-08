@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import "./componentStyles/button";
+@import "./componentStyles/form";
+@import "./componentStyles/card";
+@import "variables";
+
+:root {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+.html {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body {
+  line-height: 1.5;
+  font-family: $font;
+  font-size: 1.2rem;
+  color: $text-color;
+  font-weight: 400;
+  background-color: white;
+}
+
+.wrapper {
+  max-width: 1470px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.heading-secondary {
+  font-size: 2rem;
+  color: #262626;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.button-1 {
+  background-color: #0071c2;
+  color: #fff;
+}
+.button-2 {
+  background-color: #fff;
+  color: #003580;
+  padding: 12px 6px;
+}
+.label {
+  display: block;
+}

@@ -1,0 +1,24 @@
+._container {
+  margin-bottom: 24px;
+}
+
+._cards {
+  color: #444;
+}
+._card {
+  width: 20%;
+}
+
+._card-image {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+._card__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+._card__count {
+  font-weight: 400;
+}

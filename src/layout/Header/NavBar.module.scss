@@ -1,0 +1,9 @@
+.nav_containter {
+  display: flex;
+  min-height: 50px;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 5px;
+}

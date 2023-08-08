@@ -1,0 +1,38 @@
+._wrapper {
+  width: 1170px;
+  height: 48px;
+  background-color: #fff;
+
+  border: #febb02 2px solid;
+  border-radius: 4px;
+  display: flex;
+  position: absolute;
+  transform: translateY(-100%);
+  z-index: 1;
+  line-height: 3.6rem;
+  align-items: center;
+}
+._container {
+  width: 33%;
+  line-height: 4.8rem;
+  font-weight: 400;
+  padding: 0 16px;
+}
+._input {
+  width: 300px;
+  border: none;
+  cursor: pointer;
+
+  &::placeholder {
+    color: #bfbfbf;
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
+._button {
+  width: 80px;
+  height: 36px;
+  line-height: 36px;
+  border: none;
+  margin-right: 32px;
+}

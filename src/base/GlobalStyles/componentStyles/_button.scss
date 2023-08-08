@@ -1,0 +1,24 @@
+@import "../variables";
+
+.btn {
+  &,
+  &:link,
+  &:visited {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: $font;
+    background-color: #0071c2;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 1rem;
+    //Change for the <button> element
+    border: none;
+  }
+}

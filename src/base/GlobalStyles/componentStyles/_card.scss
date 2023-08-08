@@ -1,0 +1,13 @@
+.cards {
+  display: flex;
+  align-items: stretch;
+  background-color: #fff;
+  justify-content: space-between;
+  gap: 24px;
+}
+.card {
+  overflow: hidden;
+  background-color: #fff;
+
+  width: 25%;
+}

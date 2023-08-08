@@ -1,0 +1,39 @@
+._wrapper {
+  background-color: #003580;
+  color: white;
+  height: 250px;
+  margin: 24px auto;
+}
+._container {
+  text-align: center;
+}
+._footer--title {
+  font-size: 3.6rem;
+  padding: 60px 0 20px 0;
+  font-weight: 500;
+}
+._footer--text {
+  padding-bottom: 16px;
+}
+.container__register {
+  width: 300px;
+  margin: 0 auto;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0 auto;
+  height: 3.6rem;
+  gap: 5px;
+}
+._input {
+  width: 60%;
+  height: 3.6rem;
+  border: 1px solid #003580;
+  border-radius: 5px;
+}
+._button {
+  width: 40%;
+  height: 3.6rem;
+  border-radius: 5px;
+  border-color: transparent;
+}

@@ -1,0 +1,12 @@
+.menu__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+}
+.menu__title {
+  width: calc(100% - 100px);
+}
+.menu__btn {
+}
